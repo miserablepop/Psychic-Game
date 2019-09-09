@@ -4,9 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Psychic Game</title>
+
+    <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Added link to JavaScript file - game.js -->
+  <script type ="text/javascript" src ="../Psychic-Game/assets/javascript/game.js"></script>
 </head>
 <body>
-    
+    <h1>Psychic Game</h1>
+    <div id="game">
+        <p>Guess what letter I thinking of...</p>
+        <div id="winCount">Wins: <span id="wins">0</span></div>
+        <br />
+        <div id="lossCount">Losses: <span id="losses">0</span></div>
+        <br />
+        <div id="guessCount">Guesses Left: <span id="draws">0</span></div>
+        <br />
+        <div id="guessLeftCount">Your guesses so far: <span id="userChoice"></span></div>
+    </div>
+
 </body>
 </html>
